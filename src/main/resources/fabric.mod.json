@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "treefeller",
+	"version": "${version}",
+	"name": "Tree Feller (Daraxt kesuvchi)",
+	"description": "Boltani ushlab daraxtning bitta tanasini kessangiz, butun daraxt birdan yiqiladi. Shift bosib tursangiz, oddiy kesiladi.",
+	"authors": [
+		"Claude"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/treefeller/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"uz.treefeller.TreeFellerMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
